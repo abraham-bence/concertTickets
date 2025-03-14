@@ -4,7 +4,7 @@ interface Ticket {
   id: number;
   performer: string;
   startTime: Date;
-  lenght: number;
+  length: number;
   isMissed: boolean;
 }
 
@@ -35,6 +35,8 @@ export default function Carditem({
         />
         <Card.ImgOverlay className="overlay">
           <Card.Title className="title">{ticket.performer}</Card.Title>
+          <Card.Text className=" text">{ticket.length}p</Card.Text>
+          <Card.Text className=" text">{new Date(ticket.startTime).toLocaleDateString() + " " + new Date(ticket.startTime).toLocaleTimeString()}</Card.Text>
           <Button className= {ticket.isMissed? 'missedBtn disabled' : 'missedBtn'} onClick={(e) => missedBtnClick(e, ticket.id)}>
             Elmarad
           </Button>

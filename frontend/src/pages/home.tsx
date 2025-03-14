@@ -8,7 +8,7 @@ interface Ticket {
   id: number;
   performer: string;
   startTime: Date;
-  lenght: number;
+  length: number;
   isMissed: boolean;
 }
 

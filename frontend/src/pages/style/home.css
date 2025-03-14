@@ -22,10 +22,12 @@
 .title {
   margin-left: 10vw;
 }
+.text{
+  margin-left: 10vw;
+}
 
 .missedBtn {
   float: inline-end;
-  margin-top: 5vw;
   border: none;
   background-color: rgb(86, 86, 86);
   color: white;
