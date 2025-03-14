@@ -1,0 +1,45 @@
+.home {
+  background-image: linear-gradient(to bottom right, #50354a, #8e7896) !important;
+  background-repeat: no-repeat;
+}
+
+
+.cards {
+  padding: 0%;
+  border: none;
+  margin-top: 2vw;
+  background: none;
+  -webkit-box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.overlay {
+  color: white;
+  margin: 0;
+}
+
+.title {
+  margin-left: 10vw;
+}
+
+.missedBtn {
+  float: inline-end;
+  margin-top: 5vw;
+  border: none;
+  background-color: rgb(86, 86, 86);
+  color: white;
+  /* transition: 0.2s; */
+}
+.disabled {
+  background-color: red !important;
+}
+
+.missedBtn:hover {
+  background-color: #94738d;
+  color: #1a1a1a;
+}
+
+.missedBtn:active {
+  background-color: #50354a !important;
+}

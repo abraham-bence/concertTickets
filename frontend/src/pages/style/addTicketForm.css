@@ -1,0 +1,26 @@
+.body {
+  background-color: #1a1a1a;
+  background-image: none;
+}
+
+.addTicketForm {
+  background-image: linear-gradient(to bottom right, #50354a, #3a1149);
+  background-repeat: no-repeat;
+  padding: 30px;
+  border-radius: 5px;
+  color: white;
+  display: flexbox;
+  place-items: center;
+  width: 300px;
+}
+
+.submitBtn {
+  border: none;
+  background-color: white;
+  color: #1a1a1a;
+}
+
+.submitBtn:hover {
+    background-color: #1a1a1a;
+    color: white;
+}

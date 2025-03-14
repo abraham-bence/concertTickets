@@ -1,0 +1,25 @@
+.body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  /* align-items: center; */
+  margin-top: 35px;
+  min-height: 700px;
+}
+
+.container {
+  margin: 0;
+}
+
+
+
+.imgContainer {
+  background-color: #8e7896;
+  padding: 5px;
+  border-radius: 60px;
+}
+
+.brandImg {
+  height: 40px;
+}
